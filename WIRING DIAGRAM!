@@ -1,0 +1,30 @@
+I'm using a lolin d1 mini v4 for this project, but you can use any ESP you want. You might have to make changes to the code if your using different ESPs.
+
+BMI_1 connections:
+
+3V3 - 3V3 (on D1)     (D1 mini V4 doesn't have a 5V)
+GND - GND (on D1)
+SCL - SCL (pin 5)
+SDA - SDA (pin 4)
+SA0 - GND (BMI or D1)
+
+BMI_2 connections:
+
+3V3 - 3V3 (D1 or BMI_1)
+GND - GND (D1 or BMI_1)
+SCL - SCL (D1 or BMI_1)
+SDA - SDA (D1 or BMI_1)
+
+Lolin D1 Mini (V4.0.0) connections:
+
+3V3 - Out + (TP4056) (USE THE 1N5817 DIODES
+GND - SWITCH 
+
+Battery connections: 
+
+V5 (red) - B+ (TP4056)
+GND (black) - B- (TP4056)
+
+(Other pin on Switch to OUT - (TP4056))
+
+
